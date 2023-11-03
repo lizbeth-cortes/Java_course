@@ -13,6 +13,7 @@ public class LoopPractice {
 			sum+=input;
 			numInputs++;
 		}
+		in.close();
 		System.out.println("The sum of those ten numbers is :" + sum);
 	}
 
