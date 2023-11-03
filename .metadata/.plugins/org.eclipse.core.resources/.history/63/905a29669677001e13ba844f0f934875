@@ -1,0 +1,60 @@
+package curso.java.oracle;
+
+import java.util.Scanner;
+
+public class StringPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1 = new String("abc");
+		String s2 = "abc";
+		
+		System.out.println("--------------");
+		/*
+		 * Si solicitamos que el usuario ingrese los Strings,
+		 * el compilador efectivamente crea dos String Objects
+		 * diferentes
+		 * */
+		Scanner in= new Scanner(System.in);
+		String name, name2;
+		name=in.next();
+		name2=in.next();
+
+		System.out.println("------------");
+		/*
+		 * El símbolo + se usa para concatenar dos Strings juntos*/
+		 /* El símbolo += se usa para concatenar dos Strings juntos 
+		 * y asignárselo a sí mismo en la misma operación*/
+		
+		String st1 = "\"This is a \"";
+		String st2 = "string";
+		String st3 = st1 + st2;
+		String st4 = "This is a " + st2;
+		st1 += st2;
+		System.out.println(st1);
+		
+		System.out.println("------");
+		String str1 = "abc";
+		String str2 = "cde";
+		System.out.println(str1.compareTo(str2));
+		
+		
+		System.out.println(".......");
+		String str3 = "abc";
+		String str4 = "ABC";
+		System.out.println(str3.equals(str4));
+		
+		System.out.println("== compara los valores de referencia, no los valores");
+		/*Únicamente será true, si los dos objetos String apuntan al
+		 * mismo objeto de referencia
+		 */
+		String s3 = "This is a String.";
+		String s4 = new String("This is a String.");
+		String s5 = "String.";
+		String s6 = "This is a " + s5;
+		String s7 = s5 + s6;
+		System.out.println(s3 == s4);
+		System.out.println(s3 == s7);
+	}
+
+}

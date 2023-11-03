@@ -1,0 +1,21 @@
+package inventory;
+
+public class Product {
+	private String name;
+	private int id;
+	private int stock;
+	private int price;
+	
+	public Product() {
+		
+	}
+
+	public Product (String name, int id, int stock, int price) {
+		this.name = name;
+		this.id = id;
+		this.stock = stock;
+		this.price = price;
+	}
+	
+	
+}

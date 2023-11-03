@@ -1,0 +1,27 @@
+package curso.java.oracle;
+import java.util.Scanner;
+public class Student {
+	private int studentId;
+	private String name;
+	private String ssn;
+	private double gpa;
+	private final int SCHCODE = 34958; //a constant declaration
+	
+	public Student() { // a constructor
+		
+	}
+	
+	public Student(int x, String n, String s, double g) {
+		studentId = x;
+		name = n;
+		ssn = s;
+		gpa = g;
+	}
+	public int getStudentId() { //An accessor method
+		return studentId;
+	}
+
+	public void setStudentId(int x) {//A mutator method
+		studentId = x;
+	}
+}

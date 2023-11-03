@@ -1,0 +1,10 @@
+package curso.java.oracle;
+
+public class StudentTester {
+
+	public static void main(String[] args) {
+		Student s1 = new Student();
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package curso.java.oracle;
+
+public class StudentTester {
+
+	public static void main(String[] args) {
+		Student s1 = new Student();
+		Student s2 = new Student(123,"Mary Smith","99",3.4);
+
+		System.out.println(s2);
+	}
+
+}

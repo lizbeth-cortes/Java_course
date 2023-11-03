@@ -1,0 +1,36 @@
+package curso.java.oracle;
+
+import java.util.Scanner;
+
+public class StringPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1 = new String("abc");
+		String s2 = "abc";
+		
+		System.out.println("--------------");
+		/*
+		 * Si solicitamos que el usuario ingrese los Strings,
+		 * el compilador efectivamente crea dos String Objects
+		 * diferentes
+		 * */
+		Scanner in= new Scanner(System.in);
+		String name, name2;
+		name=in.next();
+		name2=in.next();
+
+		System.out.println("------------");
+		/*
+		 * El símbolo + se usa para concatenar dos Strings juntos*/
+		 /* El símbolo += se usa para concatenar dos Strings juntos 
+		 * y asignárselo a sí mismo en la misma operación*/
+		
+		String st1 = "This is a ";
+		String st2 = "string";
+		String st3 = st1 + st2;
+		String st4 = "This is a " + st2;
+		st1 += st2;
+	}
+
+}

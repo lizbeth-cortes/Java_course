@@ -1,0 +1,11 @@
+package ico.fes;
+import java.util.*;
+public class Calculator {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int answer = 0;
+		System.out.print("Enter a number: \n");
+	}
+
+}

@@ -1,0 +1,12 @@
+package ico.fes;
+import java.util.*;
+
+public class ClassYear {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.print("What grade are you in?");
+		
+	}
+
+}

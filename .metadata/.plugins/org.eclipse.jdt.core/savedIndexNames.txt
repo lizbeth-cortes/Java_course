@@ -1,0 +1,13 @@
+INDEX VERSION 1.134+D:\PROGRAMAS\Java\Oracle_course\.metadata\.plugins\org.eclipse.jdt.core
+3392852574.index
+3984198320.index
+2172394607.index
+2186899505.index
+2961818865.index
+2750047212.index
+443157526.index
+3313042721.index
+2627088653.index
+3403960428.index
+1865797976.index
+2441938283.index
